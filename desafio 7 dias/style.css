@@ -1,0 +1,247 @@
+.corpo {
+    font-family: 'inter', sans-serif;
+    background-color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 5rem;
+    height: 70px;    
+}
+
+.paginas-link {
+    font-size: 16px;
+    padding: 0rem 1rem;
+    text-decoration: none;
+    color: #667085;
+}
+.paginas-link:hover{
+    color: #8E2424;
+}
+
+.botao-simples {
+    background-color: #ffffff;
+    border: none;
+    color: #667085;
+    font-size: 16px;
+}
+.botao-estilizado{
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: #8E2424;
+    border: none;
+    color: #ffffff;
+}
+.cabecalho {
+    text-align: center;
+    margin: 6rem 0;
+}
+.span-cabecalho {
+    color: #8E2424;
+    font-weight: bold;
+}
+.titulo-principal {
+    font-weight: bold;
+    font-size: 46px;
+    margin: 2rem 0
+}
+.texto-cabecalho {
+    color: #667085;
+}
+.metricas-container {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    width: 300px;
+    height: 280px;
+}
+.metricas-container div {
+    margin: 1rem 1rem ;
+   
+}
+.metricas-container h1 {
+    color: #8E2424;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 1rem 0;
+    margin-left: 2rem;
+}
+.metricas-container h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0.8rem 0;
+    margin-left: 2rem;
+}
+.metricas-container p {
+    font-size: 16px;
+    color: #667085;
+    margin-left: 2rem;
+}
+.talentos {
+    display: block;
+    align-items: center;
+    text-align: center;
+    height: 35rem;
+}
+.talentos span {
+    color: #8E2424;
+    background: #8E24240D;
+}
+.talentos h1 {
+ font-weight: bold;
+ font-size: 36px;
+ margin: 1.5rem 0;
+}
+.talentos p {
+    font-size: 20px;
+    color: #667085;
+    margin-bottom: 2rem;
+}
+.talentos img {
+    width: 75%;
+}
+.vagas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.vagas-abertas {
+    margin-top: 80px;
+    font-size: 11px;
+    background-color: #F9F4F4;
+    padding: 7px;
+    width: fit-content;
+    align-self: center;
+    border-radius: 50px;
+    color: #8E2424;
+    font-weight: 600;
+
+}
+
+.tit-vagas {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.desc-vagas {
+    margin-bottom: 40px;
+    color: #667085;
+}
+
+.tit-categoria {
+    align-self: flex-start;
+    margin: 50px 0 30px 400px;
+    color: #101828;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.vaga {
+    margin-left: 400px;
+    margin-bottom: 20px;
+    border: solid 1px #EAECF0;;
+    border-radius: 20px;
+    width: 800px;
+    text-align: left;
+    padding: 30px;
+}
+
+.tit-vaga {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.informacoes span {
+    color: #667085;
+    font-weight: 500;
+    margin-right: 40px;
+}
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4rem 0;
+    background-color:#C3191908;
+    align-items: center; 
+    text-align: center;
+    padding: 3rem 5rem;
+}
+.depoimentos span {
+    color: #8E2424;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+.depoimentos h1 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.depoimentos img {
+    width: 56px;
+    margin-bottom: 1.5rem;
+}
+.depoimentos h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+.depoimentos p {
+    color: #667085;
+    font-size: 14px;
+}
+
+footer{
+  width: 100%;
+  background-color: #F9FAFB;
+}
+
+footer .container{
+  width: 50%;
+  padding: 96px 0;
+  margin: auto;
+  text-align: center;
+}
+
+footer .container span{
+  font-size: 36px;
+  font-weight: 500;
+}
+
+footer .container p{
+  color: #667085;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px;
+}
+
+footer form{
+  margin: 20px;
+}
+
+footer form input{
+  margin-right: 16px;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  padding: 12px;
+}
+.bttn {
+    color: #ffffff;
+    background-color: #8E2424;
+    border-radius: 10%;
+    border: none;
+    padding: 12px;
+}
+
+footer .copy{
+  color: #667085;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 12px;
+}
